@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 	      2-javascripts
 
 2. npm install //install dependencies
-3. npm run dev // running projects</p?
+3. npm run dev // running projects</p>
 
 ## Expanding the ESLint configuration
 <img src="https://github.com/Ishu335/gemini-clone/blob/master/Images/Gemini%201.png" atl="Gemini CLone" ></img>
