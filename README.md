@@ -1,6 +1,6 @@
 # 🌌 Gemini Clone
 
-A **Gemini-inspired web application** built with **React + Vite**.  
+A **Gemini-inspired web application** built with **React + Vite**.
 This project is designed as a starting point for creating an interactive chatbot interface or AI-powered assistant, styled after Google’s Gemini.  
 
 ---
