@@ -1,12 +1,68 @@
-# React + Vite
+# 🌌 Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Gemini-inspired web application** built with **React + Vite**.  
+This project is designed as a starting point for creating an interactive chatbot interface or AI-powered assistant, styled after Google’s Gemini.  
 
-Currently, two official plugins are available:
+---
+## Docker:
+```
+docker push ishwar555/gemini_clone:tagname
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
-<img src="https://github.com/Ishu335/gemini-clone/blob/master/Images/Gemini%201.png" atl="Gemini CLone" ></img>
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡️ **React + Vite** for a fast development experience  
+- 🛠 **ESLint** setup for clean, consistent code  
+- 🎨 Ready-to-customize UI for a chatbot-like experience  
+- 📂 Minimal and lightweight project structure  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite  
+- **Linting/Formatting:** ESLint  
+- **Styling:** CSS (extend with Tailwind or other libraries if needed)  
+
+---
+
+## 📂 Project Structure
+
+```
+gemini-clone/
+│── public/ # Static assets
+│── src/ # React source code
+│ ├── App.jsx # Main application entry
+│ ├── components/ # Place reusable UI components here
+│ └── assets/ # Local images, icons, etc.
+│── .eslintrc.js # ESLint config
+│── vite.config.js # Vite configuration
+│── package.json # Dependencies and scripts
+│── README.md # Project documentation
+```
+
+## 2.Install dependencies:
+```
+npm install
+npm run dev
+```
+
+## Future Enhancements
+
+       🤖 Integrate Google Gemini API for real AI-powered chat
+
+       💾 Save and display conversation history
+
+       🌙 Add light/dark theme toggle
+
+       🖼 Improve UI with animations and modern design
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+<img src="https://github.com/Ishu335/gemini-clone/blob/master/Images/Gemini%201.png" atl="Gemini CLone" width="800" ></img>
+
+<img src="https://github.com/Ishu335/gemini-clone/blob/2c4768bf067e75ca1cbcc00d929e6b6bee752f73/Images/Gemini%202.png" atl="Gemini CLone" width="800"></img>
+
+### 💬 Chat Interface
+<img src="https://github.com/Ishu335/gemini-clone/blob/0a417e9bc05bdcab22211fc5b6876735e28a18ea/Images/Gemini%203.png" alt="Chat Demo" width="800"/>
