@@ -6,7 +6,7 @@ This project is designed as a starting point for creating an interactive chatbot
 ---
 ## Docker:
 ```
-docker push ishwar555/gemini_clone:tagname
+docker pull ishwar555/gemini_clone:latest
 ```
 
 ## 🚀 Features
