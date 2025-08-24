@@ -30,15 +30,21 @@ docker pull ishwar555/gemini_clone:latest
 
 ```
 gemini-clone/
-│── public/ # Static assets
-│── src/ # React source code
-│ ├── App.jsx # Main application entry
-│ ├── components/ # Place reusable UI components here
-│ └── assets/ # Local images, icons, etc.
-│── .eslintrc.js # ESLint config
-│── vite.config.js # Vite configuration
-│── package.json # Dependencies and scripts
-│── README.md # Project documentation
+├── public/                  # Static assets (icons, logo, etc.)
+├── src/
+│   ├── assets/              # Images, fonts, global visuals
+│   ├── components/          # Reusable UI parts (Main, Sidebar, etc.)
+│   ├── config/              # API configs like gemini.js
+│   ├── context/             # Context API for global state
+│   ├── App.jsx              # Root component
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Global CSS
+├── index.html               # HTML template
+├── .env                     # Environment variables (e.g., API keys)
+├── vite.config.js           # Vite build config
+├── package.json
+└── README.md
+
 ```
 
 ## 2.Install dependencies:
